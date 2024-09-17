@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Férias</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: black;
+        }
+        th a {
+            color: black;
+            text-decoration: none;
+        }
+        th a:hover {
+            text-decoration: underline;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header img {
+            width: 85px;
+            height: auto;
+        }
+        .salario {
+            color: black;
+        }
+        @media print {
+            .salario {
+                display: none;
+            }
+        }
+        abbr {
+            text-decoration: none;
+        }
+
+        } 
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Relatório de Férias</h1>
+        <img src="Logotipo_empresa.png" alt="Logo da Empresa">
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th><a href="nomes.html">Nome</a></th>
+                <th><a href="setores.html">Setor</a></th>
+                <th><a href="salarios.html">Salário</a></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João Silva</td>
+                <td><abbr title="Finançeiro">FIN</abbr></td>
+                <td class="salario"><abbr title="R$ 3.820">R$ ---</abbr></td>
+            </tr>
+            <tr>
+                <td>Maria Oliveira</td>
+                <td><abbr title="Recursos Humanas">RH</abbr></td>
+                <td class="salario"><abbr title="R$ 2.500">R$ ---</abbr></td>
+            </tr>
+            <tr>
+                <td>Carlos Souza</td>
+                <td><abbr title="Técnico">TEC</abbr></td>
+                <td class="salario"><abbr title="R$ 1.560">R$ ---</abbr></td>
+            </tr>
+            <tr>
+                <td>Ana Pereira</td>
+                <td><abbr title="Administrador">ADM</abbr></td>
+                <td class="salario"><abbr title="R$ 4.610">R$ ---</abbr></td>
+            </tr>
+            <tr>
+                <td>Pedro Lima</td>
+                <td><abbr title="Qualidade e Segurança">QAS</abbr></td>
+                <td class="salario"><abbr title="R$ 3.040">R$ ---</abbr></td>
+            </tr>
+            <tr>
+                <td>Fernanda Costa</td>
+                <td><abbr title="Logistica">LOG</abbr></td>
+                <td class="salario"><abbr title="R$ 4.480">R$ ---</abbr></td>
+            </tr>
+            <tr>
+                <td>Lucas Almeida</td>
+                <td><abbr title="Produção">PRO</abbr></td>
+                <td class="salario"><abbr title="R$ 3.783">R$ ---</abbr></td>
+            </tr>
+            <tr>
+                <td>Juliana Santos</td>
+                <td><abbr title="Vendas">VEN</abbr></td>
+                <td class="salario"><abbr title="R$ 3.980">R$ ---</abbr></td>
+            </tr>
+            <tr>
+                <td>Ricardo Martins</td>
+                <td><abbr title="Engenheiro">ENG</abbr></td>
+                <td class="salario"><abbr title="R$ 1.590">R$ ---</abbr></td>
+            </tr>
+            <tr>
+                <td>Patrícia Fernandes</td>
+                <td><abbr title="Marketing">MAR</abbr></td>
+                <td class="salario"><abbr title="R$ 3.780">R$ ---</abbr></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
